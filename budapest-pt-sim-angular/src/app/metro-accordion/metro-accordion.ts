@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-metro-accordion',
+  selector: 'metro-accordion',
   imports: [],
   templateUrl: './metro-accordion.html',
   styleUrl: './metro-accordion.css',

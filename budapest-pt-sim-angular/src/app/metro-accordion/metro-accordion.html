@@ -1,1 +1,59 @@
-<p>metro-accordion works!</p>
+<div class="container-fluid">
+  <div class="border">
+    <div class="container d-flex justify-content-between">
+      <div class="d-flex justify-content-between border">
+        <button class="btn btn-light text-start">Start</button>
+        <button class="btn btn-light text-start">Pause</button>
+      </div>
+      <button class="btn btn-light text-end">Information</button>
+    </div>
+    <div class="container text-center"><h2 class="display-2">M1</h2></div>
+
+    <div class="container w-25 text-center">
+      <div class="carousel slide border" id="metroline1">
+        <div class="carousel-inner">
+          <div class="carousel-item active"><h5 class="display-5">Deák Ferenc sq.</h5></div>
+          <div class="carousel-item">
+            <h5 class="display-5 text-truncate">Vörösmarty Mihály.</h5>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#metroline1"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#metroline1"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container text-center mt-1">
+      <div class="row">
+        <div class="col">
+          <h5>Vörösmarty Mihály tér</h5>
+          <button class="btn border btn-danger rounded-circle"></button>
+        </div>
+        <div class="col">
+          <h5>Deák ferenc tér</h5>
+          <button class="btn border btn-danger rounded-circle"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div hidden="true" class="container-fluid border text-center">
+    <h2 class="display-2">Állomás Neve: Deák Ferenc tér</h2>
+    <h2 class="display-2">Állomás címe: VII. kerület</h2>
+    <h2 class="display-2">Csatlakozás: M2, M3</h2>
+  </div>
+</div>

@@ -1,14 +1,9 @@
 <div class="container-fluid">
-  <div>
+  <div class="container">
     <header></header>
     <navbar></navbar>
   </div>
-  <div>
-    <metro-accordion></metro-accordion>
-    <metro-accordion></metro-accordion>
-    <metro-accordion></metro-accordion>
-    <metro-accordion></metro-accordion>
-  </div>
-</div>
+  <metro-accordion [metro]="metroData"></metro-accordion>
 
-<router-outlet />
+  <router-outlet />
+</div>

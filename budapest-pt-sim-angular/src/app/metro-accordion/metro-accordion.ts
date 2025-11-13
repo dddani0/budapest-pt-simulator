@@ -27,12 +27,13 @@ export class MetroAccordion {
     metrolinename: string,
     station: { name: string; location: string; connections: string[] }
   ): void {
+    const previousStation = this.currentStation;
     this.setNextStation(station);
     const element: HTMLElement | null = document.getElementById(metrolinename + 'hidden');
     if (element) {
       if (element.hasAttribute('hidden')) {
         element.removeAttribute('hidden');
-      } else {
+      } else if (!element.hasAttribute('hidden') && previousStation != station) {
         element.setAttribute('hidden', '');
       }
     }

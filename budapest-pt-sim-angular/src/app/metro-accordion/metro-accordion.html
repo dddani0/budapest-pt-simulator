@@ -1,12 +1,9 @@
 @for (metroline of metro.lang[0].hu.metrolines; track $index) {
-<div class="container">
-  <div class="border">
-    <div class="container d-flex justify-content-between">
-      <div class="d-flex justify-content-between border">
-        <button class="btn btn-light text-start">Start</button>
-        <button class="btn btn-light text-start">Pause</button>
-      </div>
-      <button class="btn btn-light text-end">Information</button>
+<div class="container-fluid border">
+  <div>
+    <div class="container d-flex justify-content-between pt-1">
+      <button class="btn btn-dark border text-start"><i class="bi bi-play-fill"></i></button>
+      <button hidden class="btn btn-light text-start">Pause</button>
     </div>
     <div class="container text-center">
       <h2 class="display-2">{{ metroline.name }}</h2>
@@ -27,7 +24,7 @@
         </div>
       </div>
     </div>
-
+    <!-- Stations on line. -->
     <div class="container text-center mt-1">
       <div class="row">
         @for (station of metroline.stations; track $index;) {
@@ -41,14 +38,16 @@
       </div>
     </div>
   </div>
-  <div [id]="metroline.name + 'hidden'" hidden class="container-fluid border text-center">
-    <h2 class="display-2">Állomás Neve: {{ currentStation.name }}</h2>
-    <h2 class="display-2">Állomás címe: {{ currentStation.location }}</h2>
-    <h2 class="display-2">
-      Csatlakozás: @for (connection of currentStation.connections; track $index) {
-      {{ connection }}
-      }
-    </h2>
-  </div>
+</div>
+<!-- Hidden details -->
+<div [id]="metroline.name + 'hidden'" hidden class="container-fluid border text-center">
+  <h2 class="display-2">Állomás Neve: {{ currentStation.name }}</h2>
+  <h2 class="display-2">Állomás címe: {{ currentStation.location }}</h2>
+  <h2 class="display-2">
+    Csatlakozás: @if (currentStation.connections.length > 0) { @for (connection of
+    currentStation.connections; track $index) {
+    {{ connection }}
+    } } @else { Nincs. }
+  </h2>
 </div>
 }

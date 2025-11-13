@@ -1,0 +1,54 @@
+@for (metroline of metro.lang[0].hu.metrolines; track $index) {
+<div class="container">
+  <div class="border">
+    <div class="container d-flex justify-content-between">
+      <div class="d-flex justify-content-between border">
+        <button class="btn btn-light text-start">Start</button>
+        <button class="btn btn-light text-start">Pause</button>
+      </div>
+      <button class="btn btn-light text-end">Information</button>
+    </div>
+    <div class="container text-center">
+      <h2 class="display-2">{{ metroline.name }}</h2>
+    </div>
+    <!-- Metroline carousel -->
+    <div class="container w-50 text-center">
+      <div class="carousel slide border" [id]="metroline.name">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h5 class="display-5 text-truncate">{{ metroline.stations[0].name }}</h5>
+          </div>
+
+          @for (station of metroline.stations; track $index;) { @if ($index > 0) {
+          <div class="carousel-item">
+            <h5 class="display-5 text-truncate">{{ station.name }}</h5>
+          </div>
+          } }
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center mt-1">
+      <div class="row">
+        @for (station of metroline.stations; track $index;) {
+        <div class="col">
+          <h5>{{ station.name }}</h5>
+          <a (click)="toggleStationShowcase(metroline.name, station)">
+            <i class="bi bi-sign-stop"></i>
+          </a>
+        </div>
+        }
+      </div>
+    </div>
+  </div>
+  <div [id]="metroline.name + 'hidden'" hidden class="container-fluid border text-center">
+    <h2 class="display-2">Állomás Neve: {{ currentStation.name }}</h2>
+    <h2 class="display-2">Állomás címe: {{ currentStation.location }}</h2>
+    <h2 class="display-2">
+      Csatlakozás: @for (connection of currentStation.connections; track $index) {
+      {{ connection }}
+      }
+    </h2>
+  </div>
+</div>
+}

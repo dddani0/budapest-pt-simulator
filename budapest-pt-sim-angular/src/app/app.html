@@ -1,7 +1,9 @@
-<div>
-  <header></header>
+<div class="container-fluid">
+  <div class="container">
+    <header></header>
+    <navbar></navbar>
+  </div>
+  <metro-accordion [metro]="metroData"></metro-accordion>
 
-  <navbar></navbar>
+  <router-outlet />
 </div>
-
-<router-outlet />

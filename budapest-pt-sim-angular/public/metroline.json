@@ -1,0 +1,934 @@
+{
+  "lang": [
+    {
+      "hu": {
+        "metrolines": [
+          {
+            "name": "M1",
+            "stations": [
+              {
+                "name": "Vörösmarty tér vá.",
+                "location": "V. kerület",
+                "connections": []
+              },
+              {
+                "name": "Deák Ferenc tér",
+                "location": "VI. kerület",
+                "connections": [
+                  "M2",
+                  "M3"
+                ]
+              },
+              {
+                "name": "Bajcsy-Zsilinszky út.",
+                "location": "VII. kerület",
+                "connections": []
+              },
+              {
+                "name": "Opera",
+                "location": "VII. kerület",
+                "connections": []
+              },
+              {
+                "name": "Oktogon",
+                "location": "VII. kerület",
+                "connections": []
+              },
+              {
+                "name": "Vörösmarty utca",
+                "location": "VII. kerület",
+                "connections": []
+              },
+              {
+                "name": "Kodály körönd",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Bajza utca",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Hősök tere",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Széchenyi fürdő",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Mexikói út vá.",
+                "location": "",
+                "connections": []
+              }
+            ]
+          },
+          {
+            "name": "M2",
+            "stations": [
+              {
+                "name": "Déli pályaudvar",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Moszkva tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Batthyány tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Kossuth Lajos tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Deák Ferenc tér",
+                "location": "",
+                "connections": [
+                  "M1",
+                  "M3"
+                ]
+              },
+              {
+                "name": "Astoria",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Blaha Lujza tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Keleti pályaudvar",
+                "location": "",
+                "connections": [
+                  "M4"
+                ]
+              },
+              {
+                "name": "Puskás Ferenc Stadion",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Pillangó utca",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Örs vezér tere",
+                "location": "",
+                "connections": [
+                  "M2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "M3",
+            "stations": [
+              {
+                "name": "Újpest-központ",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Újpest-városkapu",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Gyöngyösi utca",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Forgách Utca",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Göncz Árpád városközpont",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Dózsa György út",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Lehel tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Nyugati pályaudvar",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Arany János utca",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Deák Ferenc Tér",
+                "location": "",
+                "connections": [
+                  "M1",
+                  "M2"
+                ]
+              },
+              {
+                "name": "Ferenciek tere",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Kálvin tér",
+                "location": "",
+                "connections": [
+                  "M4"
+                ]
+              },
+              {
+                "name": "Corvin-negyed",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Semmelweis Klinikák",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Nagyvárad tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Népliget",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Ecseri út",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Pöttyös utca",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Határ út",
+                "location": "",
+                "connections": []
+              }
+            ]
+          },
+          {
+            "name": "M4",
+            "stations": [
+              {
+                "name": "Kelenföld",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Bikás park",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Újbuda-központ",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Móricz Zsigmond körtér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Szent Gellért tér - Műegyetem",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Fővám tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Kálvin tér",
+                "location": "",
+                "connections": [
+                  "M3"
+                ]
+              },
+              {
+                "name": "Rákóczi tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "II. János Pál pápa tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Keleti pályaudvar",
+                "location": "",
+                "connections": [
+                  "M2"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "es": {
+        "metrolines": [
+          {
+            "name": "M1",
+            "stations": [
+              {
+                "name": "Vörösmarty tér vá.",
+                "location": "V. kerület",
+                "connections": []
+              },
+              {
+                "name": "Deák Ferenc tér",
+                "location": "VI. kerület",
+                "connections": [
+                  "M2",
+                  "M3"
+                ]
+              },
+              {
+                "name": "Bajcsy-Zsilinszky út.",
+                "location": "VII. kerület",
+                "connections": []
+              },
+              {
+                "name": "Opera",
+                "location": "VII. kerület",
+                "connections": []
+              },
+              {
+                "name": "Oktogon",
+                "location": "VII. kerület",
+                "connections": []
+              },
+              {
+                "name": "Vörösmarty utca",
+                "location": "VII. kerület",
+                "connections": []
+              },
+              {
+                "name": "Kodály körönd",
+                "location": {
+                  "district": "",
+                  "embedd": ""
+                },
+                "connections": []
+              },
+              {
+                "name": "Bajza utca",
+                "location": {
+                  "district": "",
+                  "embedd": ""
+                },
+                "connections": []
+              },
+              {
+                "name": "Hősök tere",
+                "location": {
+                  "district": "",
+                  "embedd": ""
+                },
+                "connections": []
+              },
+              {
+                "name": "Széchenyi fürdő",
+                "location": {
+                  "district": "",
+                  "embedd": ""
+                },
+                "connections": []
+              },
+              {
+                "name": "Mexikói út vá.",
+                "location": {
+                  "district": "",
+                  "embedd": ""
+                },
+                "connections": []
+              }
+            ]
+          },
+          {
+            "name": "M2",
+            "stations": [
+              {
+                "name": "Déli pályaudvar",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Moszkva tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Batthyány tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Kossuth Lajos tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Deák Ferenc tér",
+                "location": "",
+                "connections": [
+                  "M1",
+                  "M3"
+                ]
+              },
+              {
+                "name": "Astoria",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Blaha Lujza tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Keleti pályaudvar",
+                "location": "",
+                "connections": [
+                  "M4"
+                ]
+              },
+              {
+                "name": "Puskás Ferenc Stadion",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Pillangó utca",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Örs vezér tere",
+                "location": "",
+                "connections": [
+                  "M2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "M3",
+            "stations": [
+              {
+                "name": "Újpest-központ",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Újpest-városkapu",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Gyöngyösi utca",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Forgách Utca",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Göncz Árpád városközpont",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Dózsa György út",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Lehel tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Nyugati pályaudvar",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Arany János utca",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Deák Ferenc Tér",
+                "location": "",
+                "connections": [
+                  "M1",
+                  "M2"
+                ]
+              },
+              {
+                "name": "Ferenciek tere",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Kálvin tér",
+                "location": "",
+                "connections": [
+                  "M4"
+                ]
+              },
+              {
+                "name": "Corvin-negyed",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Semmelweis Klinikák",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Nagyvárad tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Népliget",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Ecseri út",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Pöttyös utca",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Határ út",
+                "location": "",
+                "connections": []
+              }
+            ]
+          },
+          {
+            "name": "M4",
+            "stations": [
+              {
+                "name": "Kelenföld",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Bikás park",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Újbuda-központ",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Móricz Zsigmond körtér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Szent Gellért tér - Műegyetem",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Fővám tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Kálvin tér",
+                "location": "",
+                "connections": [
+                  "M3"
+                ]
+              },
+              {
+                "name": "Rákóczi tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "II. János Pál pápa tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Keleti pályaudvar",
+                "location": "",
+                "connections": [
+                  "M2"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "en": {
+        "metrolines": [
+          {
+            "name": "M1",
+            "stations": [
+              {
+                "name": "Vörösmarty tér vá.",
+                "location": "V. kerület",
+                "connections": []
+              },
+              {
+                "name": "Deák Ferenc tér",
+                "location": "VI. kerület",
+                "connections": [
+                  "M2",
+                  "M3"
+                ]
+              },
+              {
+                "name": "Bajcsy-Zsilinszky út.",
+                "location": "VII. kerület",
+                "connections": []
+              },
+              {
+                "name": "Opera",
+                "location": "VII. kerület",
+                "connections": []
+              },
+              {
+                "name": "Oktogon",
+                "location": "VII. kerület",
+                "connections": []
+              },
+              {
+                "name": "Vörösmarty utca",
+                "location": "VII. kerület",
+                "connections": []
+              },
+              {
+                "name": "Kodály körönd",
+                "location": {
+                  "district": "",
+                  "embedd": ""
+                },
+                "connections": []
+              },
+              {
+                "name": "Bajza utca",
+                "location": {
+                  "district": "",
+                  "embedd": ""
+                },
+                "connections": []
+              },
+              {
+                "name": "Hősök tere",
+                "location": {
+                  "district": "",
+                  "embedd": ""
+                },
+                "connections": []
+              },
+              {
+                "name": "Széchenyi fürdő",
+                "location": {
+                  "district": "",
+                  "embedd": ""
+                },
+                "connections": []
+              },
+              {
+                "name": "Mexikói út vá.",
+                "location": {
+                  "district": "",
+                  "embedd": ""
+                },
+                "connections": []
+              }
+            ]
+          },
+          {
+            "name": "M2",
+            "stations": [
+              {
+                "name": "Déli pályaudvar",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Moszkva tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Batthyány tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Kossuth Lajos tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Deák Ferenc tér",
+                "location": "",
+                "connections": [
+                  "M1",
+                  "M3"
+                ]
+              },
+              {
+                "name": "Astoria",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Blaha Lujza tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Keleti pályaudvar",
+                "location": "",
+                "connections": [
+                  "M4"
+                ]
+              },
+              {
+                "name": "Puskás Ferenc Stadion",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Pillangó utca",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Örs vezér tere",
+                "location": "",
+                "connections": [
+                  "M2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "M3",
+            "stations": [
+              {
+                "name": "Újpest-központ",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Újpest-városkapu",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Gyöngyösi utca",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Forgách Utca",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Göncz Árpád városközpont",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Dózsa György út",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Lehel tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Nyugati pályaudvar",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Arany János utca",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Deák Ferenc Tér",
+                "location": "",
+                "connections": [
+                  "M1",
+                  "M2"
+                ]
+              },
+              {
+                "name": "Ferenciek tere",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Kálvin tér",
+                "location": "",
+                "connections": [
+                  "M4"
+                ]
+              },
+              {
+                "name": "Corvin-negyed",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Semmelweis Klinikák",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Nagyvárad tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Népliget",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Ecseri út",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Pöttyös utca",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Határ út",
+                "location": "",
+                "connections": []
+              }
+            ]
+          },
+          {
+            "name": "M4",
+            "stations": [
+              {
+                "name": "Kelenföld",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Bikás park",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Újbuda-központ",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Móricz Zsigmond körtér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Szent Gellért tér - Műegyetem",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Fővám tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Kálvin tér",
+                "location": "",
+                "connections": [
+                  "M3"
+                ]
+              },
+              {
+                "name": "Rákóczi tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "II. János Pál pápa tér",
+                "location": "",
+                "connections": []
+              },
+              {
+                "name": "Keleti pályaudvar",
+                "location": "",
+                "connections": [
+                  "M2"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

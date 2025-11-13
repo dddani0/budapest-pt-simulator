@@ -23,14 +23,18 @@ export class MetroAccordion {
     this.currentStation = station;
   }
 
-  openStation(
+  toggleStationShowcase(
     metrolinename: string,
     station: { name: string; location: string; connections: string[] }
   ): void {
     this.setNextStation(station);
     const element: HTMLElement | null = document.getElementById(metrolinename + 'hidden');
     if (element) {
-      element.removeAttribute('hidden');
+      if (element.hasAttribute('hidden')) {
+        element.removeAttribute('hidden');
+      } else {
+        element.setAttribute('hidden', '');
+      }
     }
   }
 }

@@ -33,7 +33,7 @@
         @for (station of metroline.stations; track $index;) {
         <div class="col">
           <h5>{{ station.name }}</h5>
-          <a (click)="openStation(metroline.name, station)">
+          <a (click)="toggleStationShowcase(metroline.name, station)">
             <i class="bi bi-sign-stop"></i>
           </a>
         </div>

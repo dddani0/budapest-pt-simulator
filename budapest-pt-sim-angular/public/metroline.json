@@ -41,42 +41,27 @@
               },
               {
                 "name": "Kodály körönd",
-                "location": {
-                  "district": "",
-                  "embedd": ""
-                },
+                "location": "",
                 "connections": []
               },
               {
                 "name": "Bajza utca",
-                "location": {
-                  "district": "",
-                  "embedd": ""
-                },
+                "location": "",
                 "connections": []
               },
               {
                 "name": "Hősök tere",
-                "location": {
-                  "district": "",
-                  "embedd": ""
-                },
+                "location": "",
                 "connections": []
               },
               {
                 "name": "Széchenyi fürdő",
-                "location": {
-                  "district": "",
-                  "embedd": ""
-                },
+                "location": "",
                 "connections": []
               },
               {
                 "name": "Mexikói út vá.",
-                "location": {
-                  "district": "",
-                  "embedd": ""
-                },
+                "location": "",
                 "connections": []
               }
             ]
